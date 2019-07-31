@@ -1,0 +1,625 @@
+/* Header */
+
+.header {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	@include transition (all 0.4s ease-in-out);
+	z-index: 100;
+	min-height: 60px;
+	background: none;
+	.navbar {
+		padding: 0;
+
+	}
+	
+	.logo-icon {
+		height: 34px;
+		width: auto;
+	}
+
+}
+
+
+.header-shrink {	
+	@include box-shadow(0 1px 4px 0 rgba(0,0,0,.1));
+	background: $theme-bg-dark;
+}
+
+.navbar-nav {
+	.nav-item {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.875rem;
+	}
+	.nav-link {
+		color: #fff;
+		@include opacity(0.75);
+		font-weight: 600;
+		padding: 1rem;
+		&:hover {
+			@include opacity(1);
+		}
+		&.active {
+			@include opacity(1);
+		}
+	}
+	
+	
+}
+
+
+.navbar-toggler {
+    border: 1px solid #fff;
+    padding: 0.4rem 0.5rem;
+    outline: none !important;
+	.navbar-toggler-icon {
+	    background: url('../images/bars.svg') no-repeat left top;
+	    height: 20px;
+	    width: 27px;
+	}
+}
+
+
+
+/* Hero Block */
+.hero-block {
+	position: relative;
+	@include background-size(cover);
+	height: 620px;
+	padding-top: 130px;
+	
+}
+
+.hero-block-mask {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.hero-carousel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	.carousel-inner {
+		height: 100%;
+	}
+	.carousel-item {
+		background-color: $theme-text-color-primary;
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-item-1 {
+		background: url('../images/hero-1.jpg') no-repeat center center;
+	}
+	.carousel-item-2 {
+		background: url('../images/hero-2.jpg') no-repeat center center;
+	}
+	.carousel-item-3 {
+		background: url('../images/hero-3.jpg') no-repeat center center;
+	}
+}
+
+.hero-text-block {
+	color: #fff;
+	max-width: 600px;
+	position: relative;
+	z-index: 20;
+	h1.hero-heading {
+		color: #fff;
+		font-size: 4rem;
+		font-weight: 800;
+	}
+	.hero-intro {
+		font-size: 1.75rem;
+	}
+	.hero-meta {
+		font-size: 1.75rem;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+	}
+	
+}
+
+
+
+/* Stats Block */
+.stats-block {
+	.item {
+		line-height: 1.3;
+	}
+	.number {
+		font-size: 2.5rem;
+		font-weight: 700;
+		font-family: 'Montserrat', sans-serif;
+		
+	}
+	.unit {
+		font-size: 1.5rem;
+		color: rgba(0, 0, 0, 0.6);
+	}
+}
+
+/* countdown block */
+.countdown-box {
+	span {
+		display: inline-block;
+		padding: 0.5rem 0;
+		min-width: 60px;
+		
+		& > span {
+			display: block;
+			padding: 0;
+		}
+	}
+	.number {
+		font-size: 2rem;
+		font-weight: 400;
+		color: $theme-text-color-primary;
+		
+	}
+	.unit {
+		@include opacity(0.8);
+	}
+
+}
+
+/* Section Generic */
+.section {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.section-heading {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.section-intro {
+	font-size: 1.125rem;
+}
+
+
+/* About Section */
+.about-section {
+	padding-bottom: 0;
+}
+.benefits-list {
+	li {
+		margin-bottom: 0.5rem;
+		font-size: 1.125rem;
+		.svg-inline--fa {
+			color: $theme-color-tick;
+		}
+	}
+}
+
+
+/* Speakers Section */
+.speakers-section {
+
+	.card {
+		border: none;
+		background: $theme-bg-light;
+		margin-bottom: 2rem;
+		height: 100%;
+	}
+	
+	.card-title {
+		font-size: 1.125rem;
+	}
+	
+	.card-img-top {
+		&:hover {
+			@include opacity(0.9);
+		}
+	}
+
+	.card-footer {
+		background: darken($theme-bg-light, 2%);
+		border-top: none;
+	}
+	.social-list {
+		
+		
+	}
+}
+
+.modal-speaker {
+	.profile-image {
+		width: 120px;
+	}
+	h2.name {
+		font-size: 1.5rem;
+	}
+	
+	.social-list {
+		font-size: 1.25rem;
+
+	}
+	.modal-content {
+		position: relative;
+	}
+	.modal-header {
+		padding: 0;
+		
+		.close {
+			width: 45px;
+				height: 45px;
+			margin: 0;
+			padding: 0;
+			font-size: 2.5rem;
+			font-weight:300;
+			position: absolute;
+			text-shadow: none;
+			color: #fff;
+			background: $theme-color-primary;
+			top: 0;
+			right: 0;
+			z-index: 10;
+			
+			&:hover {
+				background: $theme-color-primary;
+				color: #fff;
+			}
+			
+		}
+	}
+
+}
+
+/* Schedule Section */
+.schedule-nav {
+	.nav-item {
+
+		span {
+			display: block;
+		}
+		.heading {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			font-size: 1.25rem;
+		}
+		.meta {
+			@include opacity(0.8);
+		}
+	}
+	
+	.nav-link {
+		background: $theme-bg-light;
+		@include border-radius(0);
+		border-right: rgba(0, 0, 0, 0.1);
+
+	}
+}
+
+.schedule-tab-content {
+	padding: 2rem 0;
+	
+	
+	.tab-pane {
+		position: relative;
+		&:after {
+			content: "";
+			display: block;
+			background: $theme-border-color;
+			position: absolute;
+			width: 3px;
+			height: 100%;
+			left: 196px;
+			top: 5px;
+			
+		}
+		
+		&.no-timeline {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	
+	.item {
+		position: relative;
+		margin-bottom: 2rem;
+		
+		.item-talk {
+			min-height: 165px;
+		}
+		
+		&:after {
+			content: "";
+		    display: inline-block;
+		    position: absolute;
+		    z-index: 5;
+		    left: 190px;
+		    top: 5px;
+		    width: 16px;
+		    height: 16px;
+		    border: 4px solid $theme-color-primary;
+		    background: white;
+		    border-radius: 50%;
+		}
+		.meta {
+			position: absolute;
+			left: 0;
+		    top: 0;
+		    width: 200px;
+		    padding: 1rem;
+		    padding-top: 0;
+		    text-align: center;
+		    font-size: 0.875rem;
+		    .time {
+			    font-size: 1.25rem;
+			    color: $theme-color-primary;
+		    }
+		    .location {
+			    font-weight: bold;
+		    }
+		}
+		.profile-image {
+			width: 80px;
+			
+		}
+		.content {
+			padding-left: 240px;
+			
+			.title {
+				font-size: 1.25rem;
+			}
+		}
+	}
+}
+
+/* Tickets Section */
+.offers-list {
+	li {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		font-size: 1.125rem;
+		.icon-holder {
+			width: 42px;
+			height: 42px;
+			background:$theme-bg-light;
+			color: $theme-color-primary;
+			display: inline-block;
+			text-align: center;
+			@include border-radius(50%);
+			padding-top: 0.5rem;
+		}
+		.svg-inline--fa {
+			font-size: 1.125rem;
+			
+		}
+	}
+}
+
+.pricing {
+	.card {
+		background: #fff;
+		height: 100%;
+	}
+	
+	.heading {
+		background: $theme-bg-primary;
+	    color: #fff;
+
+		h4 {
+			font-size: 1.125rem;
+		}
+	}
+
+
+	.price-figure {
+		font-size: 2rem;
+	}
+	
+	.card-footer {
+		background: white;
+		border-top: 0;
+		padding-bottom: 2rem;
+	}
+}
+
+/* Venue */
+.venue-section {
+
+	.figure {
+		position: relative;
+		
+		img {
+			border: 10px solid #fff;
+			max-width: 100%;
+			
+		}
+		&.figure-1 {
+			z-index: 1;
+			@include scale(1.1);
+		}
+		&.figure-2 {
+			@include rotate(2);
+			z-index: 2;
+			
+			
+		}
+		&.figure-3 {
+			@include rotate(358);
+			z-index: 3;
+			margin-top: -2rem;
+		}
+		&.figure-4 {
+			z-index: 3;
+			@include scale(1.1);
+		}
+	}
+	.grid-item {
+		border: 1px solid #fff;
+		
+		.title {
+			font-size: 1.125rem;
+		}
+		.svg-inline--fa {
+			font-size: 1.25rem;
+		}
+	}
+}
+
+
+/* Sponsors */
+.logo-item {
+	margin-bottom: 1rem;
+	img {
+		max-width: 100%;
+	}
+}
+/* footer */
+.footer {
+	color: #fff;
+	a {
+		color: #fff;
+		&:hover {
+			color: #fff;
+		}
+	}
+	.social-list {
+		font-size: 1.5rem;
+	}
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	.modal-dialog {
+	    max-width: 500px;
+	}
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .navbar-expand-lg .navbar-nav .nav-link {
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+    }
+    
+    .modal-dialog {
+	    max-width: 700px;
+	}
+	
+	.countdown-box span {
+		padding: 0.5rem 1.5rem;
+		min-width: 90px;
+    }
+	 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.modal-dialog {
+	    max-width: 800px;
+	}
+	
+
+	.venue-section  .figures-holder {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	
+		
+		
+}
+
+
+//We occasionally use media queries that go in the other direction (the given screen size or smaller):
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+	.section {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	
+	.hero-block {
+		height: auto;
+		padding-bottom: 5rem;
+	}
+	.hero-text-block h1.hero-heading {
+		font-size: 2.5rem;
+	}
+	.hero-text-block .hero-meta {
+		font-size: 1.25rem;
+	}
+	.hero-text-block .hero-intro {
+		font-size: 1.25rem;
+	}
+	.stats-block .number {
+		font-size: 1.75rem;
+	}
+	.stats-block .unit {
+		font-size: 1rem;
+	}
+	.speakers-section .card {
+		height: inherit;
+	}
+	
+	
+	.schedule-nav .nav-item .heading {
+		font-size: 0.875rem;
+	}
+	.schedule-nav .nav-item .meta {
+		font-size: 0.75rem;
+	}
+	.schedule-nav .nav-link {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.schedule-tab-content .item .meta {
+		position: static;
+		width: auto;
+	}
+	.schedule-tab-content .tab-pane:after, .schedule-tab-content .item:after {
+		display: none;
+	}
+	.schedule-tab-content .item .content {
+		padding-left: 0;
+	}
+	.schedule-tab-content .item {
+		background: $theme-bg-light;
+		padding: 1rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .header-has-bg {
+		background: $theme-bg-dark;
+	}
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+	
+ }
+
+
+
+
+

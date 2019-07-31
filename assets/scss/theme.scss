@@ -1,0 +1,40 @@
+/*************************** Theme Colours****************************/
+// Define theme colour scheme
+$theme-color-primary: #098dcf;
+$theme-color-secondary: #EC645E;
+$theme-text-color-primary: #141c25;
+$theme-text-color-secondary: lighten($theme-text-color-primary, 25%);
+$theme-text-color-light: lighten($theme-text-color-primary, 40%);
+$theme-bg-light: #f0f6fa;
+$theme-bg-primary: $theme-color-primary;
+$theme-bg-dark: $theme-text-color-primary;
+$theme-border-color:  #e5ecf4;
+$theme-color-tick: #5ab66e;
+$smoky-white: #f5f5f5;
+$single-col-max: 800px;
+
+/*************************** Variables Section. *****************************/
+// Create variables to override the default value for variables used in the Bootstrap SCSS files.
+
+$gray-100: lighten($theme-text-color-secondary, 65%);
+$gray-200: lighten($theme-text-color-secondary, 55%);
+$gray-300: lighten($theme-text-color-secondary, 50%);
+$gray-400: lighten($theme-text-color-secondary, 45%);
+$gray-500: lighten($theme-text-color-secondary, 40%);
+$gray-600: lighten($theme-text-color-secondary, 30%);
+$gray-700: lighten($theme-text-color-secondary, 20%);
+$gray-800: lighten($theme-text-color-secondary, 10%);
+$gray-900: $theme-text-color-primary;
+
+$theme-colors: (
+  "primary":  $theme-color-primary, 
+  "secondary": $theme-text-color-secondary, 
+);
+
+/*************************** Import Bootstrap  *****************************/
+@import "bootstrap/scss/bootstrap.scss";
+
+
+/*************************** Theme Styles Section ****************************/
+@import "theme/styles.scss"
+

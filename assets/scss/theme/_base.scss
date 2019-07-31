@@ -1,0 +1,106 @@
+/* ============= Base ============= */
+
+/*********** Theme Generic **********/
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $theme-text-color-secondary;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	color: $theme-text-color-primary;
+	font-weight: 700;
+}
+
+
+a.theme-link {
+	color: $theme-text-color-primary;
+	text-decoration: underline;
+    -webkit-text-decoration-color: rgba($theme-text-color-primary,0.3);
+    text-decoration-color: rgba($theme-text-color-primary,0.3);
+    &:hover {
+	    color: $theme-color-primary;
+	    -webkit-text-decoration-color: rgba($theme-color-primary,0.8);
+	        text-decoration-color: rgba($theme-color-primary,0.8);
+    }
+}
+
+.btn {
+	font-weight: 700;
+	padding: 0.6rem 1.25rem;
+	@include transition (all 0.4s ease-in-out);
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-primary {
+   background: $theme-color-primary;
+   &:hover {
+	   background: darken($theme-color-primary, 10%);
+   }
+}
+
+.btn-secondary {
+	background: $theme-color-secondary;
+   &:hover {
+	   background: darken($theme-color-secondary, 10%);
+   }
+}
+
+.btn-ghost {
+	background: none;
+	border: 2px solid #fff;
+	color: #fff;
+	&:hover {
+		background: #fff;
+		color: $theme-color-primary;
+	}
+}
+
+
+.theme-bg-light {
+	background: $theme-bg-light;
+}
+
+.theme-bg-dark {
+	background: $theme-bg-dark;
+}
+
+.theme-bg-primary {
+	background: $theme-bg-primary;
+}
+
+#topcontrol {
+    @include transition (all 0.4s ease-in-out);
+    background: $theme-text-color-secondary;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    z-index: 30;
+    width: 2.5rem;
+    height: 2.5rem;
+    @include border-radius(0.25rem);
+    @include box-shadow(0 0.125rem 0.25rem rgba(0,0,0,0.075));
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    
+    &:hover {
+        background: darken($theme-bg-primary, 10%);
+        color: #fff;
+    }
+
+}
+
+
+/*********** Theme Utilities **********/
+
+.single-col-max {
+	max-width: $single-col-max;
+}
+
+
