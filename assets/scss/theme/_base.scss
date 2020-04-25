@@ -34,20 +34,25 @@ a.theme-link {
 	@include transition (all 0.4s ease-in-out);
 	border: none;
 	font-family: 'Montserrat', sans-serif;
+	 &:focus {
+	    @include box-shadow(none);
+    }
 }
 
 
 .btn-primary {
    background: $theme-color-primary;
-   &:hover {
+   &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active:focus {
 	   background: darken($theme-color-primary, 10%);
+	   @include box-shadow(none);
    }
 }
 
 .btn-secondary {
 	background: $theme-color-secondary;
-   &:hover {
+   &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active:focus {
 	   background: darken($theme-color-secondary, 10%);
+	   @include box-shadow(none);
    }
 }
 
