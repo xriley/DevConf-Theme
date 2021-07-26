@@ -26,7 +26,7 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 
 ## Latest Version
-**Bootstrap v1.0** - 11 Oct 2020
+**Bootstrap 5 v1.0** - 2021-07-26
 
 [Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/?target=changelog)
 
