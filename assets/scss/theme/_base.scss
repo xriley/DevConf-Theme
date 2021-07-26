@@ -15,6 +15,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
 
 a.theme-link {
 	color: $theme-text-color-primary;
@@ -33,26 +39,41 @@ a.theme-link {
 	padding: 0.6rem 1.25rem;
 	@include transition (all 0.4s ease-in-out);
 	border: none;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	
 	 &:focus {
 	    @include box-shadow(none);
+	    color: white;
     }
 }
 
 
 .btn-primary {
    background: $theme-color-primary;
-   &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active:focus {
+   text-decoration: none;
+   color: #fff;
+   &:hover, &:focus, &:active {
+	   text-decoration: none;
 	   background: darken($theme-color-primary, 10%);
 	   @include box-shadow(none);
+	   color: #fff;
+   }
+   &.disabled {
+	   color: rgba(256, 256, 256, 0.8);
    }
 }
 
 .btn-secondary {
 	background: $theme-color-secondary;
-   &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active:focus {
+	text-decoration: none;
+	color: #fff;
+    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active:focus {
+	   text-decoration: none;
 	   background: darken($theme-color-secondary, 10%);
 	   @include box-shadow(none);
+	   color: #fff;
    }
 }
 

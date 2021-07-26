@@ -29,18 +29,22 @@
 	.nav-item {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 0.875rem;
+		&.active {
+			.nav-link {
+				@include opacity(1);
+			}
+		}
 	}
 	.nav-link {
 		color: #fff;
 		@include opacity(0.75);
 		font-weight: 600;
 		padding: 1rem;
+		text-decoration: none;
 		&:hover {
 			@include opacity(1);
 		}
-		&.active {
-			@include opacity(1);
-		}
+
 	}
 	
 	
@@ -246,9 +250,9 @@
 	.modal-header {
 		padding: 0;
 		
-		.close {
+		.btn-close {
 			width: 45px;
-				height: 45px;
+			height: 45px;
 			margin: 0;
 			padding: 0;
 			font-size: 2.5rem;
@@ -260,7 +264,8 @@
 			top: 0;
 			right: 0;
 			z-index: 10;
-			
+			@include border-radius(0);
+			line-height: 1;
 			&:hover {
 				background: $theme-color-primary;
 				color: #fff;
@@ -292,6 +297,7 @@
 		background: $theme-bg-light;
 		@include border-radius(0);
 		border-right: rgba(0, 0, 0, 0.1);
+		text-decoration: none;
 
 	}
 }

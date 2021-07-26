@@ -1,16 +1,16 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Pormo.jpg" alt="Bootstrap 4 Conference Template for Tech Conference and Event" /></a>
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Pormo.png" alt="Bootstrap 5 Conference Template for Tech Conference and Event" /></a>
 
 ## Theme Details & Demo
 
-**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/
+**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/
 
-DevConf is a free Bootstrap 4 conference template perfect for building marketing sites for tech conferences and events. 
+DevConf is a free Bootstrap 5 conference template perfect for building marketing sites for tech conferences and events. 
 
 ## Author & License
 
 This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
-If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/free/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/)
+If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/free/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/)
 
 #### Follow Xiaoying
 
@@ -26,16 +26,16 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 
 ## Latest Version
-**v1.2** - 11 Oct 2020
+**Bootstrap v1.0** - 11 Oct 2020
 
-[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/?target=changelog)
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/?target=changelog)
 
 
 ## Features
 
 -  Fully Responsive
 -  HTML5 + CSS3
--  Built on Bootstrap 4
+-  Built on Bootstrap 5
 -  **SCSS** source files included
 -  1500+ FontAwesome 5 icons
 -  Compatible with all modern browsers
