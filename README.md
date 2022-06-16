@@ -1,4 +1,4 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Pormo.png" alt="Bootstrap 5 Conference Template for Tech Conference and Event" /></a>
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Gumroad-Pormo.png" alt="Bootstrap 5 Conference Template for Tech Conference and Event" /></a>
 
 ## Theme Details & Demo
 
@@ -42,6 +42,6 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 ## Credits
 - [Bootstrap](https://getbootstrap.com/)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
+- [FontAwesome](https://fontawesome.com/)
 - [Google fonts](https://fonts.google.com/)
 - Image Credit - [EuropeanaTech Conference](https://www.flickr.com/photos/europeanaimages2/albums/72157669104892268) and [TechCrunch](https://www.flickr.com/photos/techcrunch/) [Creative Commons 2.0 license](https://creativecommons.org/licenses/by/2.0/deed.en) (All images are shown for demonstration purposes only)
