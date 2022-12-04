@@ -100,5 +100,146 @@
 			"github": "https://github.com/atharvparkhe/"
 		}
 	],
-	"speakers": []
+	"speakers": [
+		{
+			"name": "Ankit Sharma",
+			"about": "SDE III at Cisco, GDE at Angular",
+			"position": "Building modern web apps with Angular and Firebase",
+			"more": "Ankit Sharma is a Software Engineer, working with Cisco Systems and staying with his family at Samastipur, Bihar, India. He has over 8 years of extensive experience in Microsoft technologies including C#, ASP.NET, SQL Server, and UI technologies such as JQuery, Angular, and Blazor. Ankit is a technical author and speaker and loves to contribute to the open-source community. He writes articles for multiple platforms, which include c-sharpcorner, Dzone, Medium, and freeCodeCamp. For his dedicated contribution to the developer’s community, he has been recognized as the Google Developer Expert for Angular and a Microsoft MVP for Developer Technologies. He is the author of Blazor Quick Start Guide and Learn C# Programming.",
+			"image": "assets/images/speakers/speaker-1.jpg",
+			"twitter": "https://twitter.com/ankitsharma_007/",
+			"linkedin": "https://www.linkedin.com/in/ankitsharma-007/",
+			"github": ""
+		},
+		{
+			"name": "Nitin Prakash",
+			"about": "SDE III at Trell, GDE for Android; Ex-SSE for Android at BYJUS",
+			"position": "Internal Working of RecyclerView",
+			"more": "Nitin Prakash is an Android Engineer, currently working with Trell, Ex-Byjus. Nitin has completed his graduation in Electronics and Communication from Maharishi Dayanand University, Haryana, and live in New Delhi. After completing his graduation Nitin had worked in the telecom industry for more than 2.5 years and but he also learned java and android while doing his telecom job. He got his first break in the IT industry in Dec-2017 where he worked as an individual contributor to the whole android app SDLC and he developed 9 apps successfully. In Byjus were he handling the Snap-Camera feature and also handling architecture optimization. He always focuses on making the app more decoupled, testable, scalable, and extendable and he also focuses on the smooth UX for the end-users. His passion is to develop more robust android apps and learning every day into small pieces. His fun fact, he is very loquacious if anybody talks about android dev.",
+			"image": "assets/images/speakers/speaker-2.jpg",
+			"twitter": "https://twitter.com/NitinDroid/",
+			"linkedin": "https://www.linkedin.com/in/nitin-prakash9911/",
+			"github": ""
+		},
+		{
+			"name": "Bhavna Thacker",
+			"about": "Senior Software Engineer at MEGA; GDE Android",
+			"position": "Internal Working of RecyclerView",
+			"more": "Bhavna is a Google Developer Expert for Android and Senior Software Engineer at MEGA. She is also a WTM member and Final Pass Editor @raywenderlich. She likes to share her learnings via YouTube channel - LearnAndroid. When she is not at work, you can find her in the kitchen listening to music and experimenting new dishes.",
+			"image": "assets/images/speakers/speaker-3.jpg",
+			"twitter": "https://twitter.com/bhavnathacker14",
+			"linkedin": "https://www.linkedin.com/in/bhavna-thacker-64956985/",
+			"github": ""
+		},
+		{
+			"name": "Rivu Chakraborty",
+			"about": "Lead Android Engineer at Meesho; GDE Kotlin ",
+			"position": "The State of Compose",
+			"more": "Rivu Chakraborty is a Kotlin GDE, an Android developer, a community person, & one of the early adopters of Kotlin. With overall ~10 years of experience, he's presently working at Meesho as a Lead Android Engineer. He previously used to work at Gojek, Paytm (India's biggest Fintech startup) and Byju's (India's biggest Edtech startup). He has contributed to multiple Kotlin and Android Development books including authoring Reactive Programming in Kotlin, co-authoring Functional Kotlin the first-ever book to help Kotlin developers learn Functional Programming and use Arrow-kt in their projects, and co-authoring Hands-On Data Structures and Algorithms with Kotlin. He has been using Kotlin since December 2015. Rivu formed KotlinKolkata User Group, the first active Kotlin User Group in India. Before he had to move out of Kolkata, he was organizing meetups and events for both KotlinKolkata and GDG Kolkata. Along with organizing community & events, he also speaks at events/conferences and local meetups.",
+			"image": "assets/images/speakers/speaker-4.jpg",
+			"twitter": "https://twitter.com/rivuchakraborty/",
+			"linkedin": "https://www.linkedin.com/in/rivuchk/",
+			"github": ""
+		},
+		{
+			"name": "Praveen Thirumurugan",
+			"about": "Software Engineer at Plum",
+			"position": "Orchestration with serverless microservices",
+			"more": "Praveen is currently in Bangalore, where he works as a Software Engineer at Plum. During his early professional life, he contributed a lot to open source and has been the head of the Cloud Coimbatore community for several years. He has 5+ years of experience with various tech domains, focusing on UI Frameworks and Cloud Services. Praveen enjoys working in Aviation, Photography and Travel in his spare time.",
+			"image": "assets/images/speakers/speaker-5.jpg",
+			"twitter": "https://twitter.com/PraveenTcom/",
+			"linkedin": "https://www.linkedin.com/in/praveentcom/",
+			"github": ""
+		},
+		{
+			"name": "Shree Bhagwat",
+			"about": "Founder of Codeaamy; Flutter Pune Organiser; YouTuber; Blogger",
+			"position": "Platform Channel - Communicating Flutter with Native Code",
+			"more": "Founder of Codeaamy, Flutter Pune Organiser Flutter Tech Editor, Video Course Creator and lead mentor at Raywenderlich.com. Corporate Trainer For Flutter, Youtuber and blogger.",
+			"image": "assets/images/speakers/speaker-6.jpg",
+			"twitter": "https://twitter.com/shreebhagwat94/",
+			"linkedin": "https://www.linkedin.com/in/shrihriday/",
+			"github": ""
+		},
+		{
+			"name": "Amey Nerkar",
+			"about": "Technical Product Manager, Bajaj Finserv Health; Google Certified Engineer",
+			"position": "Accessibility: Technology and Beyond",
+			"more": "Amey is a social innovator and changemaker who enjoys building things that impact the community. He develops exceptional products and deploys those in the community around him. He is featured by Google for the impact he is creating using the technology! Amey is currently working as a Technical Product Manager and is experienced in developing and managing the technical side of the products. He is a Google Cloud Certified Engineer and Facebook-certified community manager. He is a full-time Technical Product Manager and loves spending weekends over Music + Code!",
+			"image": "assets/images/speakers/speaker-7.jpg",
+			"twitter": "https://twitter.com/ameyinvent/",
+			"linkedin": "https://www.linkedin.com/in/ameyinvent/",
+			"github": ""
+		},
+		{
+			"name": "Sagnik Ghosh",
+			"about": "Co-Founder & CTO at WorqHat",
+			"position": "A Startup’s Guide to Innovation",
+			"more": "Co-Founder || CTO at WorqHat About him: He is an enthusiastic entrepreneur with a strong technical background and a plethora of experiences to boast about. His experience includes mentoring several Hackathons across the country, being a speaker at many Technical and Startup Events conducted across the Globe and having co-founded and grown two other startups prior to working on WorqHat. His mission is to Digitize the Indian industries til the last mile. WorqHat is a No-Code Drag and Drop Workspace where Organizations of all sizes can easily build their Internal Tools and Customer Portals without writing a single line of code. WorqHat is currently backed by Amazon, Freshworks, Seedstars and several other organizations.",
+			"image": "assets/images/speakers/speaker-8.jpg",
+			"twitter": "https://twitter.com/sagnik_ghosh_11/",
+			"linkedin": "https://www.linkedin.com/in/sagnikghosh1111/",
+			"github": ""
+		},
+		{
+			"name": "Akansha Jain",
+			"about": "SW Engineer Intern (Flutter) at A.P. Moller Maersk; Gold Microsoft Learn Student Ambassador",
+			"position": "Showcase your website with Firebase Hosting",
+			"more": "I am currently working as an SW Engineer Intern at A.P. Moller Maersk. I was a Google Developer Student Clubs Lead for the session 2021-22 and a Gold Microsoft Learn Student Ambassador. I completed my B. Sc. Hons. in Computer Science Degree from Shaheed Rajguru College of Applied Sciences for Women, University of Delhi. I also completed Diploma in German Language from University of Delhi only. My interest lies in Application Development and I love contributing to open source. I am also passionate about UI/UX Designing.",
+			"image": "assets/images/speakers/speaker-9.jpg",
+			"twitter": "https://twitter.com/Akansha2001/",
+			"linkedin": "https://www.linkedin.com/in/akansha-jain-2001/",
+			"github": ""
+		},
+		{
+			"name": "Abhishek Doshi",
+			"about": "Sr. Flutter Engineer at Somnio Software; Google Developer Expert (GDE) for Dart, Flutter & Firebase",
+			"position": "Showcase your website with Firebase Hosting ",
+			"more": "I am a Google Developer Expert (GDE) for Dart, Flutter & Firebase. I am the youngest GDE in the world. I am also a Google Mentor, thereby mentoring individuals and companies who wish to start with Flutter. Apart from that, I am the Organiser of Flutter Valsad and Co-Organiser of Flutter India. I am also an Internation Tech Speaker and Tech Content Writer. Currently, I work at Somnio Software as Sr. Flutter Engineer and my main responsibilities include advising the team, reviewing their code, taking critical decisions, coding, solving major critical issues, etc.",
+			"image": "assets/images/speakers/speaker-10.jpg",
+			"twitter": "https://twitter.com/AbhishekDoshi26/",
+			"linkedin": "https://linkedin.com/in/abhishekdoshi26/",
+			"github": ""
+		},
+		{
+			"name": "Elio Jordan Lopes",
+			"about": "Co-Founder CEO, IntoTheVerse Inc.",
+			"position": "Web3 and Chainlink",
+			"more": "Elio Jordan Lopes Co-Founder CEO, IntoTheVerse Inc. Building IntoTheVerse Inc. , sustainable games and gaming economies for good, powered by Blockchain and Web3 #games4good ",
+			"image": "assets/images/speakers/speaker-11.jpg",
+			"twitter": "https://twitter.com/ElioOnCelo/",
+			"linkedin": "https://www.linkedin.com/in/lopeselio/",
+			"github": ""
+		},
+		{
+			"name": "Yashwant Choudhary",
+			"about": "Research Analyst, Decademia",
+			"position": "Web3 and Chainlink",
+			"more": "Yashwant Choudhary Decademia - Research Analyst",
+			"image": "assets/images/speakers/speaker-12.jpg",
+			"twitter": "https://twitter.com/Yashwant_eth/",
+			"linkedin": "",
+			"github": ""
+		},
+		{
+			"name": "",
+			"about": "",
+			"position": "",
+			"more": "",
+			"image": "assets/images/speakers/speaker-13.jpg",
+			"twitter": "",
+			"linkedin": "",
+			"github": ""
+		},
+		{
+			"name": "",
+			"about": "",
+			"position": "",
+			"more": "",
+			"image": "assets/images/speakers/speaker-14.jpg",
+			"twitter": "",
+			"linkedin": "",
+			"github": ""
+		}
+	]
 }
