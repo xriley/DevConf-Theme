@@ -1,0 +1,104 @@
+{
+	"volenteers": [
+		{
+			"name": "Athava Parkhe",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-1.jpg",
+			"twitter": "https://twitter.com/atharvparkhe/",
+			"instagram": "https://www.instagram.com/atharvparkhe/",
+			"linkedin": "https://www.linkedin.com/in/atharvparkhe/",
+			"github": "https://github.com/atharvparkhe/"
+		},
+		{
+			"name": "Medam Greeshma",
+			"about": "Front Developer | Student",
+			"position": "GDG Lead",
+			"more": "A budding Developer with a keen interest in Web technologies, Open Source and Communities. I am passionate about responsive and accessible design. Currently diving into the React ecosystem and working with communities on my campus.",
+			"image": "assets/images/Volunteers/volunteer-2.jpg",
+			"twitter": "https://twitter.com/GreeshmaMedam",
+			"instagram": "https://www.instagram.com/medam_greeshma",
+			"linkedin": "https://www.linkedin.com/in/m-greeshma/",
+			"github": "https://github.com/greeshma2903"
+		},
+		{
+			"name": "Sarvesh Patkar",
+			"about": "Frontend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-3.jpg",
+			"twitter": "https://twitter.com/SarveshPatkar13/",
+			"instagram": "https://www.instagram.com/13_sarvesh_patkar/",
+			"linkedin": "http://www.linkedin.com/in/siya-golatkar/",
+			"github": "https://github.com/SarveshPatkr/"
+		},
+		{
+			"name": "Samarth Naik",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-4.jpg",
+			"twitter": "https://twitter.com/Samarth_Naik21/",
+			"instagram": "https://www.instagram.com/_samarth_02_/",
+			"linkedin": "https://www.linkedin.com/in/samarth-naik-ba5659258/",
+			"github": "https://github.com/Samarth-Naik/"
+		},
+		{
+			"name": "Shantaksh Kamat",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-5.jpg",
+			"twitter": "https://twitter.com/kamat_shantaksh/",
+			"instagram": "https://www.instagram.com/shantax_kam4t_02/",
+			"linkedin": "https://www.linkedin.com/in/shantaksh-kamat-58a109192/",
+			"github": "https://github.com/ShantakshKamat"
+		},
+		{
+			"name": "Siya Golatkar",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-7.jpg",
+			"twitter": "https://twitter.com/SiyaGolatkar/",
+			"instagram": "https://www.instagram.com/siyagolatkar/",
+			"linkedin": "http://www.linkedin.com/in/siya-golatkar/",
+			"github": "https://github.com/Siya-9/"
+		},
+		{
+			"name": "Abhinav Borde",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-6.jpg",
+			"twitter": "https://twitter.com/AbhinavBorde31/",
+			"instagram": "https://www.instagram.com/abhinav.03_/",
+			"linkedin": "https://www.linkedin.com/in/abhinav-borde-90993b22b/",
+			"github": "https://github.com/AbhinavBorde/"
+		},
+		{
+			"name": "Suhesha Gaonkar",
+			"about": "Backend Developer | Student",
+			"position": "GDG Lead",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-8.jpg",
+			"twitter": "https://twitter.com/SuheshaGaonkar/",
+			"instagram": "https://www.instagram.com/astroyeee/",
+			"linkedin": "http://www.linkedin.com/in/suhesha/",
+			"github": "https://github.com/suhesha/"
+		},
+		{
+			"name": "Abner Mascarenhas",
+			"about": "Creative Drone Pilot",
+			"position": "Creative Drone Pilo",
+			"more": "desc",
+			"image": "assets/images/Volunteers/volunteer-9.jpg",
+			"twitter": "https://twitter.com/atharvparkhe/",
+			"instagram": "https://www.instagram.com/atharvparkhe/",
+			"linkedin": "https://www.linkedin.com/in/atharvparkhe/",
+			"github": "https://github.com/atharvparkhe/"
+		}
+	],
+	"speakers": []
+}
