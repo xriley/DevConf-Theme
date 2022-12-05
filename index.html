@@ -25,10 +25,39 @@
 	<!-- Inline S	tyles for some fixtures -->
 	<style>
 		@media screen and (min-width: 992px) {
-			.volunteer-grid {
+			.volunteer-grid, .speakers-container {
 				max-width: 80%;
 			}
 		}
+
+		.hero-carousel .carousel-item-1 {
+			background: url("./assets/images/header-img.svg") no-repeat center center;
+			background-size: cover;
+			background-position: top;
+			filter: blur(0.7px);
+		}
+
+		/* 
+		<-- google colors --> 
+		.theme-bg-primary{
+			background:#4285F4
+		}
+		.btn-primary {background: #4285F4}
+		a {
+			color: #4285F4;
+		}
+		.btn-primary:hover {
+			background: rgb(40, 121, 201);
+		}
+		.btn-primary.disabled {
+			background: #6295e8;
+		}
+		a:hover {
+			color: #2f66bf;
+		}
+		.pricing .heading {
+			background: #4285F4;
+		} */
 	</style>
 
 </head>
@@ -74,14 +103,11 @@
 		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item-1 carousel-item active">
-				</div>
-				<div class="carousel-item-2 carousel-item">
-				</div>
-				<div class="carousel-item-3 carousel-item">
+					<!-- <img class="w-100 h-100" src="./assets/images/header-img-svg.svg" alt=""> -->
 				</div>
 			</div>
 		</div>
-		<div class="hero-block-mask"></div>
+		<!-- <div class="hero-block-mask"></div> -->
 		<div class="container">
 			<div class="hero-text-block">
 				<h1 class="hero-heading mb-2">DevFest 2022</h1>
@@ -90,8 +116,8 @@
 				<div class="hero-intro mb-4">GDG DevFest Goa brings together the world class experts in Android, Web and
 					Cloud technologies to Goa for a day full of sessions, workshops and showcases.<br></div>
 				<div class="hero-cta"><a class="btn btn-primary btn-lg"
-						href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/"
-						target="_blank">Get Tickets</a></div>
+						href="https://www.townscript.com/e/devfest-goa-2022"
+						target="_blank" rel="noopener noreferrer">Get Tickets</a></div>
 			</div>
 			<!--//hero-text-block-->
 		</div>
@@ -229,11 +255,11 @@
 			<h3 class="section-heading text-center mb-3">Speakers</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5">Here is the list of our Expert Speakers
 				of the Event</div>
-			<div class="row">
+			<div class="speakers-container row mx-auto">
 				<!-- DEV_REF DEV_REF_SPEAKERS paste speakers below (detele siblings to this comments before adding new data)-->
 				<!-- DEV_REF Start -->
 				<!-- Ankit Sharma START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-1.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -289,7 +315,7 @@
 				<!-- Ankit Sharma END -->
 
 				<!-- Nitin Prakash START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-2" data-bs-toggle="modal" data-bs-target="#modal-speaker-2"><img src="assets/images/speakers/speaker-2.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -345,7 +371,7 @@
 				<!-- Nitin Prakash END -->
 
 				<!-- Bhavna Thacker START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-3" data-bs-toggle="modal" data-bs-target="#modal-speaker-3"><img src="assets/images/speakers/speaker-3.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -401,7 +427,7 @@
 				<!-- Bhavna Thacker END -->
 
 				<!-- Rivu Chakraborty START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-4" data-bs-toggle="modal" data-bs-target="#modal-speaker-4"><img src="assets/images/speakers/speaker-4.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -457,7 +483,7 @@
 				<!-- Rivu Chakraborty END -->
 
 				<!-- Praveen Thirumurugan START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-5" data-bs-toggle="modal" data-bs-target="#modal-speaker-5"><img src="assets/images/speakers/speaker-5.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -513,7 +539,7 @@
 				<!-- Praveen Thirumurugan END -->
 
 				<!-- Shree Bhagwat START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-6" data-bs-toggle="modal" data-bs-target="#modal-speaker-6"><img src="assets/images/speakers/speaker-6.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -569,7 +595,7 @@
 				<!-- Shree Bhagwat END -->
 
 				<!-- Amey Nerkar START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-7" data-bs-toggle="modal" data-bs-target="#modal-speaker-7"><img src="assets/images/speakers/speaker-7.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -625,7 +651,7 @@
 				<!-- Amey Nerkar END -->
 
 				<!-- Sagnik Ghosh START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-8" data-bs-toggle="modal" data-bs-target="#modal-speaker-8"><img src="assets/images/speakers/speaker-8.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -681,7 +707,7 @@
 				<!-- Sagnik Ghosh END -->
 
 				<!-- Akansha Jain START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-9" data-bs-toggle="modal" data-bs-target="#modal-speaker-9"><img src="assets/images/speakers/speaker-9.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -737,7 +763,7 @@
 				<!-- Akansha Jain END -->
 
 				<!-- Abhishek Doshi START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-10" data-bs-toggle="modal" data-bs-target="#modal-speaker-10"><img src="assets/images/speakers/speaker-10.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -793,7 +819,7 @@
 				<!-- Abhishek Doshi END -->
 
 				<!-- Elio Jordan Lopes START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-11" data-bs-toggle="modal" data-bs-target="#modal-speaker-11"><img src="assets/images/speakers/speaker-11.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -839,7 +865,7 @@
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>Elio Jordan Lopes Co-Founder CEO, IntoTheVerse Inc. Building IntoTheVerse Inc. , sustainable games and gaming economies for good, powered by Blockchain and Web3 #games4good </p>
+										<p>Elio Jordan Lopes Co-Founder CEO, IntoTheVerse Inc. Building IntoTheVerse Inc., sustainable games and gaming economies for good, powered by Blockchain and Web3. </p>
 									</div>
 								</div>
 							</div>
@@ -849,7 +875,7 @@
 				<!-- Elio Jordan Lopes END -->
 
 				<!-- Yashwant Choudhary START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-12" data-bs-toggle="modal" data-bs-target="#modal-speaker-12"><img src="assets/images/speakers/speaker-12.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -905,7 +931,7 @@
 				<!-- Yashwant Choudhary END -->
 
 				<!-- Vishakha Chavan START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-13" data-bs-toggle="modal" data-bs-target="#modal-speaker-13"><img src="assets/images/speakers/speaker-13.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -951,7 +977,7 @@
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>Role: Chief Data Scientist, WomenTechmakers Community Leader, AI Researcher Vishakha Chavan is an emerging Data Scientist with specialization in enterprise ML solutions. She advocates for sustainable innovation, healthcare research through applied machine learning and green energy resources. Her qualifications and certifications include a bachelor's degree in Mathematics, post graduation with Artificial Intelligence from Indian Institute of Information Technology, Bengaluru and a master’s degree with majors in artificial intelligence from IU University, Germany. Vishakha is also a core team member at Women Techmakers Baroda, a women-in-tech focused community, empowering women in technology and has been contributing to the community. With her extensive experience in the field of technology including machine learning and data science applications, DevOps, Cloud, infrastructure automation, and software architecture, she aims to share knowledge with the world.</p>
+										<p>Vishakha Chavan is an emerging Data Scientist with specialization in enterprise ML solutions. She advocates for sustainable innovation, healthcare research through applied machine learning and green energy resources. Her qualifications and certifications include a bachelor's degree in Mathematics, post graduation with Artificial Intelligence from Indian Institute of Information Technology, Bengaluru and a master’s degree with majors in artificial intelligence from IU University, Germany. Vishakha is also a core team member at Women Techmakers Baroda, a women-in-tech focused community, empowering women in technology and has been contributing to the community. With her extensive experience in the field of technology including machine learning and data science applications, DevOps, Cloud, infrastructure automation, and software architecture, she aims to share knowledge with the world.</p>
 									</div>
 								</div>
 							</div>
@@ -961,7 +987,7 @@
 				<!-- Vishakha Chavan END -->
 
 				<!-- Sneh Pandya START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-14" data-bs-toggle="modal" data-bs-target="#modal-speaker-14"><img src="assets/images/speakers/speaker-14.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
@@ -2062,7 +2088,7 @@
 				<!-- Abner Mascarenhas END -->
 				<!-- VOLUNTEERS_END -->
 			</div>
-			<div class="Volunteers-cta text-center py-3"><a class="btn btn-primary btn-lg"
+			<div class="Volunteers-cta text-center py-3"><a class="btn btn-warning btn-lg text-decoration-none"
 					href="https://www.townscript.com/e/devfest-goa-2022" target="_blank">Get Tickets</a></div>
 		</div>
 		<!--//container-->
@@ -2088,8 +2114,8 @@
 			<small class="copyright">Designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
 					Riley</a> for developers</small>
 			<small class="copyright">Edited by <a href="https://github.com/atharvparkhe" target="_blank">Atharva
-					Parkhe</a>, <a href="https://github.com/Greeshma2903" target="_blank">Madem Greeshma </a> and <a
-					href="https://github.com/SarveshPatkr" target="_blank">Sarvesh Patkar</a> for devFest</small>
+					Parkhe</a>, <a href="https://github.com/Greeshma2903" target="_blank">M Greeshma </a> and <a
+					href="https://github.com/SarveshPatkr" target="_blank">Sarvesh Patkar</a> for DevFest22</small>
 		</div>
 		<!--//container-->
 	</footer>
