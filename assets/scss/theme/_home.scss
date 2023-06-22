@@ -554,6 +554,10 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
+	
+	.header {
+		background: rgba($theme-text-color-primary, 0.95);
+	}
 
 	.section {
 		padding-top: 3rem;
